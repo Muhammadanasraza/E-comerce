@@ -26,7 +26,7 @@ function Header() {
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                         <Link to={"/home"} className="mr-5 font-bold text-gray-900">Home</Link>
                         <Link to={"/products"} className="mr-5 font-bold text-gray-900">Products</Link>
-                        <a className="mr-5 font-bold text-gray-900">Contact Us</a>
+                        <Link to={"/cantactus"} className="mr-5 font-bold text-gray-900">Contact Us</Link>
                        
                     </nav>
                     

@@ -24,6 +24,7 @@ function App() {
          <Route path ="/home" element={<Home/>}/>
          <Route path ="/products" element={<Products/>}/>
          <Route path ="/productdetail/:id" element={<Productdetail/>}/>
+         <Route path ="/cantactus" element={<CantactUs/>}/>
          <Route path ="*" element={<NotFound/>}/>
 
 

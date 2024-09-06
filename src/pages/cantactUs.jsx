@@ -131,3 +131,4 @@ function CantactUs(){
         </>
     )
 }
+export default CantactUs;

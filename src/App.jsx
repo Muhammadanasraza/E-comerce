@@ -10,6 +10,7 @@ import Card from './components/Card'
 import Productdetail from './pages/Productdetail'
 import NotFound from './pages/NotFound'
 import Home from './pages/Home'
+import CantactUs from './pages/cantactUs'
 
 function App() {
   const [count, setCount] = useState(0)

@@ -17,9 +17,10 @@ function Productdetail() {
         fetch(`https://dummyjson.com/products/${id}`)
             .then(res => res.json())
             .then((res) => {
-                console.log(res)
+                // console.log(res)
                 setProduct(res)
                 setLoading(false)
+                setNotFound(false)
             })
             .catch((err) => {
                 console.log(err)
@@ -40,9 +41,9 @@ function Productdetail() {
                         : notFound ? <h1 className="text-3xl font-bold font-mono mt-50 ">Product NotFound</h1>
                             :
 
-                            <section className="text-gray-600 body-font overflow-hidden">
-                                <div className="container px-5 py-24 mx-auto">
-                                    <div className="lg:w-4/5 mx-auto flex flex-wrap">
+                            <section className="text-gray-600 body-font overflow-hidden ">
+                                <div className="container px-5 py-24 mx-auto ">
+                                    <div className="lg:w-4/5 mx-auto flex flex-wrap border rounded shadow p-5">
                                         <img
                                             alt="ecommerce"
                                             className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"

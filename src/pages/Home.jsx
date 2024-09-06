@@ -12,29 +12,24 @@ function Home() {
                             <img
                                 alt="content"
                                 className="object-cover object-center h-full w-full"
-                                src="https://t4.ftcdn.net/jpg/03/83/21/85/360_F_383218557_t5fC98hOdrg0hr4BsulCZ9mPX9a4uube.jpg"
+                                src="https://png.pngtree.com/thumb_back/fh260/background/20220522/pngtree-ecommerce-banner-planning-segmentation-selection-image_1375247.jpg    "
                             />
                         </div>
                         <div className="flex flex-col sm:flex-row mt-10">
                             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-2">
                                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                                    <img src="D:\web d work .uploaded on github\ecomerce\image\WhatsApp Image 2024-09-06 at 09.33.28_beb1d0ab.jpg"
-                                        // fill="none"
-                                        // stroke="currentColor"
-                                        // strokeLinecap="round"
-                                        // strokeLinejoin="round"
-                                        // strokeWidth={2}
-                                        // className="w-10 h-10"
-                                        // viewBox="0 0 24 24"
+                                    <img className="rounded " src="../../../image\WhatsApp Image 2024-09-06 at 09.33.28_beb1d0ab.jpg"
+                                        
                                     />
                                         
-                                        {/* <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
-                                        <circle cx={12} cy={7} r={4} /> */}
+                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                                        <circle cx={12} cy={7} r={4} />
+
                                  
                                 </div>
                                 <div className="flex flex-col items-center text-center justify-center">
                                     <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
-                                        Phoebe Caulfield
+                                        Anas raza
                                     </h2>
                                     <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4" />
                                     <p className="text-base">

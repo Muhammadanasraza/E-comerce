@@ -22,7 +22,7 @@ function App() {
         <Header />
         <Routes>
 
-         <Route path ="/home" element={<Home/>}/>
+         <Route path ="/" element={<Home/>}/>
          <Route path ="/products" element={<Products/>}/>
          <Route path ="/productdetail/:id" element={<Productdetail/>}/>
          <Route path ="/cantactus" element={<CantactUs/>}/>

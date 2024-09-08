@@ -21,7 +21,7 @@ function Home() {
                                     <img className="rounded " src="../../../image\WhatsApp Image 2024-09-06 at 09.33.28_beb1d0ab.jpg"
                                         
                                     />
-                                        
+                                            
                                         <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
                                         <circle cx={12} cy={7} r={4} />
 

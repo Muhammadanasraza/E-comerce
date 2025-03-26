@@ -27,12 +27,7 @@ const {thumbnail,category,title ,price,id } = items;
                         <p className="mt-1">${price}</p>
                     </div>
                 </Link>
-                
-
-
-       
-
-
+                 
         </>
     )
 }

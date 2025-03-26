@@ -13,7 +13,6 @@ import Home from './pages/Home'
 import CantactUs from './pages/cantactUs'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

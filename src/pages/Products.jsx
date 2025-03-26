@@ -37,9 +37,6 @@ function Products() {
     // for catogery
 
     useEffect(() => {
-
-
-
         fetch('https://dummyjson.com/products/categories')
             .then(res => res.json())
             .then((data) => {
